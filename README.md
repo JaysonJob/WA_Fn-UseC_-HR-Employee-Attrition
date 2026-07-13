@@ -26,11 +26,11 @@ PostgreSQL · SQL · Power BI · DAX
 
 ### 2. Installation Steps
 
-1. Create a new database in PostgreSQL and run `Data_cleaning.sql` first - this creates the `HR` schema, builds the `staging_attrition` table, and cleans the raw data (trimming whitespace, standardizing text casing, removing the underscore in `BusinessTravel`, and checking every column for blanks/nulls).
-2. Import the source data into `staging_attrition`: in pgAdmin, right-click the table → **Import/Export Data** → browse to `WA_Fn-UseC_-HR-Employee-Attrition.csv` and load it in.
-3. Run `Analysis_and_views_created.sql` next - this answers the core business questions and creates four views (`vw_fact_attrition`, `vw_department_summary`, `vw_jobrole_summary`, `vw_overtime_summary`) that the Power BI report reads from.
+1. Create a new database in PostgreSQL and run `Data cleaning.sql` first - this creates the `HR` schema, builds the `staging attrition` table, and cleans the raw data (trimming whitespace, standardizing text casing, removing the underscore in `BusinessTravel`, and checking every column for blanks/nulls).
+2. Import the source data into `staging attrition`: in pgAdmin, right-click the table → **Import/Export Data** → browse to `WA_Fn-UseC_-HR-Employee-Attrition.csv` and load it in.
+3. Run `Analysis and views_created.sql` next - this answers the core business questions and creates four views (`vw_fact_attrition`, `vw_department_summary`, `vw jobrole summary`, `vw_overtime_summary`) that the Power BI report reads from.
 4. Open `Bi.pbix` in Power BI Desktop.
-   - **Offline / view-only:** just open the file - Power BI caches the last-refreshed data inside the `.pbix`, so all dashboards and visuals display immediately with no database connection needed.(you can also check the screenshot folder it has all the screenshots from power BI if you are un able to install it)
+   - **Offline / view-only:** just open the file - Power BI caches the last-refreshed data inside the `Power BI.pbix`, so all dashboards and visuals display immediately with no database connection needed.(you can also check the screenshot folder it has all the screenshots from power BI if you are un able to install it)
    - **Online / live connection:** to pull live data instead of the cached snapshot, go to **Home → Transform Data → Data Source Settings**, point the PostgreSQL connection at your own database, then click **Refresh**.
 
 ## Quick Summary
