@@ -83,7 +83,7 @@ This page looks at tenure and career-stage patterns. A funnel of total employees
 ### Executive Report
 
 This report examines employee attrition at the organization, focusing on key metrics such as overall attrition rate, departmental and role-level trends, overtime impact, compensation, and tenure. Overall attrition stands at 16.1%, with 237 of 1,470 employees having left. Overtime is the strongest driver of attrition: employees working overtime leave at 30.5%, nearly three times the rate of those who don't (10.4%). Employees who left were also younger on average (33.6 vs. 37.6 years) and earned less ($4,787 vs. $6,833 monthly). Sales had the highest departmental attrition (20.6%), led by Sales Representatives at 39.8%, the highest of any role, followed by Laboratory Technicians at 23.9%. Entry-level staff (Job Level 1) left at 26.3%, over five times the rate of senior levels (4-7%), pointing to early-tenure retention risk. A key opportunity lies in auditing overtime load in Sales and R&D, strengthening onboarding for Job Level 1 hires, and reviewing compensation for Sales Representatives and Lab Technicians.
-![alt text](https://github.com/JaysonJob/WA_Fn-UseC_-HR-Employee-Attrition/blob/872df26676b427b87a24a35d961477f3bd230374/screenshots/executive%20report.png)
+![alt text](https://github.com/JaysonJob/WA_Fn-UseC_-HR-Employee-Attrition/blob/ec5ac4f4f96f3c44d6670410dc4b1ae841d86a92/screenshots/executive%20analysis.png)
 
 ### Key Insights & Recommendations
 
