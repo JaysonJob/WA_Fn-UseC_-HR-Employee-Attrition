@@ -64,16 +64,8 @@ The project follows a clean → model → analyze → visualize pipeline.
 ![alt text](https://github.com/JaysonJob/WA_Fn-UseC_-HR-Employee-Attrition/blob/4224ee89c79bae0815add1845823a2ce892e8083/sql.png)
 
 **Attrition by Job Role** *Which specific roles are the biggest attrition risk?* → Groups by `JobRole`, ranked by attrition rate. Sales Representatives lead at 39.8%, well above every other role.
+![alt text](https://github.com/JaysonJob/WA_Fn-UseC_-HR-Employee-Attrition/blob/edcef45fca1574146cf2d7a1870400a93978a8f4/roles.png)
 
-**Departments Above the Company Average** *Which departments need attention right now, relative to the 16.1% company baseline?* → Calculates each department's rate, then filters (via `HAVING`) to only those exceeding the overall company rate - flagging Sales and Human Resources as priority areas.
-
-**Pay as an Attrition Factor** *Is pay a plausible explanation for attrition differences between roles?* → Uses a window function to compare each role's average `MonthlyIncome` against the company-wide average, side by side, without collapsing the row-level detail.
-
-**Tenure vs. Attrition** *Does tenure protect against attrition, or is even long-tenured staff leaving in certain departments?* → Compares average `YearsAtCompany` against attrition rate per department, showing that longer average tenure doesn't fully insulate a department from high attrition.
-
-**Overtime as a Driver** *Is overtime a driver of attrition?* → Groups by `OverTime`, comparing attrition rates directly. Employees working overtime leave at 30.5%, nearly three times the rate of those who don't (10.4%) - the single strongest signal in the dataset.
-
-**Below-Average Earners by Role** *Which employees are being paid below their role's average, a possible flight risk?* → Uses a subquery with a windowed role average to flag every employee earning less than their `JobRole` peers.
 
 ## Dashboards
 
