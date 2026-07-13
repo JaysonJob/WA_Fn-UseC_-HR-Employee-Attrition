@@ -72,6 +72,7 @@ The project follows a clean → model → analyze → visualize pipeline.
 ### Dashboard 1 - Attrition Overview
 
 This page covers the headline KPIs: total employees, attrition count, overall attrition rate, gender split, and average hourly rate. Attrition by department shows Sales and Human Resources running above the 16.1% company average, while a clustered column of overtime vs. attrition rate makes the overtime effect immediately visible - 30.5% for overtime workers versus 10.4% for everyone else. A column chart of attrition by job role confirms Sales Representatives as the single highest-risk role.
+![alt text](https://github.com/JaysonJob/WA_Fn-UseC_-HR-Employee-Attrition/blob/78dd52ca0c53a7df83d58c1c932266317ffc8d8c/screenshots/analysis%20dashboard.png)
 
 ### Dashboard 2 - Employee Trends
 
