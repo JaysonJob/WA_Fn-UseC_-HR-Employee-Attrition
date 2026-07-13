@@ -102,3 +102,7 @@ This report examines employee attrition at the organization, focusing on key met
 3. **Build a real onboarding program for new hires** - a structured first 90 days with check-ins at 3 and 6 months would catch Job Level 1 employees before they quietly decide to leave.
 4. **Review pay for early-career staff specifically** - a company-wide average salary can look fine while this exact group is underpaid, so review compensation bands for this segment on their own.
 5. **Rethink how travel and workload get assigned** - spread frequent travel across the team instead of loading it on the same people, and treat work-life balance as something managers check on regularly.
+ ![alt text](https://github.com/JaysonJob/WA_Fn-UseC_-HR-Employee-Attrition/blob/bb23c2b24c60beed34023c476d2d75b67ffd453f/screenshots/insights%20and%20recomendations.png)
+
+please leave a star if you found this project useful
+
