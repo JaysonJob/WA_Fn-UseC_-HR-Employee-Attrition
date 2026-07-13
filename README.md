@@ -77,7 +77,7 @@ This page covers the headline KPIs: total employees, attrition count, overall at
 ### Dashboard 2 - Employee Trends
 
 This page looks at tenure and career-stage patterns. A funnel of total employees by job level shows the workforce is heavily weighted toward Job Level 1 and 2, which is also where attrition is concentrated (26.3% at Level 1 vs. 4-7% at senior levels). An area chart of years at company against headcount shows attrition risk is highest in the earliest years of tenure, and a combo chart breaks down total employees and attrition rate by department side by side.
-![alt text](https://github.com/JaysonJob/WA_Fn-UseC_-HR-Employee-Attrition/blob/5276ad26d00ecac3c44c226617f344f81e76ab89/screenshots/dashboard%202.png)
+![alt text](https://github.com/JaysonJob/WA_Fn-UseC_-HR-Employee-Attrition/blob/b4fe93bb75656f7778d9d4b16dcffa2e6e847779/screenshots/employees%20analysis.png)
 
 
 ### Executive Report
