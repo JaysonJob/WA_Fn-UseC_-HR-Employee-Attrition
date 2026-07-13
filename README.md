@@ -61,6 +61,7 @@ The project follows a clean → model → analyze → visualize pipeline.
 **Overall Attrition Rate** *How big is the attrition problem, in one number?* → Counts total employees against those with `Attrition = 'Yes'`. Overall attrition sits at 16.1% (237 of 1,470 employees).
 
 **Attrition by Department** *Which departments are losing the most employees?* → Groups by `Department`, ranked by attrition rate. Sales has the highest attrition (20.6%), followed by Human Resources (19.0%) and Research & Development (13.8%).
+![alt text](https://github.com/JaysonJob/WA_Fn-UseC_-HR-Employee-Attrition/blob/4224ee89c79bae0815add1845823a2ce892e8083/sql.png)
 
 **Attrition by Job Role** *Which specific roles are the biggest attrition risk?* → Groups by `JobRole`, ranked by attrition rate. Sales Representatives lead at 39.8%, well above every other role.
 
